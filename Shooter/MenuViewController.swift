@@ -120,6 +120,7 @@ class MenuViewController: UIViewController {
 
     }
     @objc func gotoPlayScreen(){
+        // goto play screen
         let vc = ViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
